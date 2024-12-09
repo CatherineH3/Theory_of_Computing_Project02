@@ -1,4 +1,4 @@
-Machine Name: a plus
+Machine Name: a plus Nondeterministic
 Input String: 'aaaaaaaa'
 Depth of Configuration Tree: 8
 Total Transitions / Execution time: 8
@@ -18,7 +18,7 @@ aaaaaa q1 a a
 aaaaaaa q1 a _
 aaaaaaaa q1 _ _
 
-Machine Name: a plus
+Machine Name: a plus Nondeterministic
 Input String: 'a'
 Depth of Configuration Tree: 1
 Total Transitions / Execution time: 1
@@ -31,7 +31,7 @@ Acceptance Path (each line shows: tape state current_head remaining_tape):
  q1 a _
 a q1 _ _
 
-Machine Name: a plus
+Machine Name: a plus Nondeterministic
 Input String: 'ab'
 Depth of Configuration Tree: 1
 Total Transitions / Execution time: 1
@@ -44,7 +44,7 @@ Longest Path (each line shows: tape state current_head remaining_tape):
  q1 a b
 a q1 b _
 
-Machine Name: a plus
+Machine Name: a plus Nondeterministic
 Input String: 'aaa'
 Depth of Configuration Tree: 3
 Total Transitions / Execution time: 3
@@ -59,7 +59,7 @@ a q1 a a
 aa q1 a _
 aaa q1 _ _
 
-Machine Name: a plus
+Machine Name: a plus Nondeterministic
 Input String: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 Depth of Configuration Tree: 19
 Total Transitions / Execution time: 19
