@@ -1,0 +1,8 @@
+NTM Name,Input String,Result,Depth of Tree,Configurations Explored,Nondeterminism
+Binary Divisible by 2 NTM,101010,Rejected,0,1,0.5
+Binary Divisible by 2 NTM,111111,Rejected,0,1,0.5
+Binary Divisible by 2 NTM,0000000,Rejected,0,1,0.5
+Binary Divisible by 2 NTM,11111111111110,Rejected,0,1,0.5
+Binary Divisible by 2 NTM,0000000001,Rejected,0,1,0.5
+Binary Divisible by 2 NTM,10101,Rejected,0,1,0.5
+Binary Divisible by 2 NTM,0,Rejected,0,1,0.5

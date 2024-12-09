@@ -1,0 +1,12 @@
+Binary Divisible by 2 NTM
+q1,q2,q3
+0,1
+0,1
+q1
+q3
+q2
+1,0,q3,0,R
+q1,1,q2,1,R
+qq2,0,q2,0,R
+q2,1,q2,1,R
+q2,_,q2,_,R

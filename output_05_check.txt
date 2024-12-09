@@ -1,0 +1,77 @@
+Machine Name: Binary Divisible by 2 NTM
+Input String: '101010'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
+Machine Name: Binary Divisible by 2 NTM
+Input String: '111111'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
+Machine Name: Binary Divisible by 2 NTM
+Input String: '0000000'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
+Machine Name: Binary Divisible by 2 NTM
+Input String: '11111111111110'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
+Machine Name: Binary Divisible by 2 NTM
+Input String: '0000000001'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
+Machine Name: Binary Divisible by 2 NTM
+Input String: '10101'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
+Machine Name: Binary Divisible by 2 NTM
+Input String: '0'
+Depth of Configuration Tree: 0
+Total Transitions / Execution time: 1
+Total Configurations: 1
+Nondeterminism: 0.50
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+
