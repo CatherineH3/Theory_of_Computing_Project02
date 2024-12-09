@@ -1,4 +1,4 @@
-NTM Name,Input String,Result,Depth of Tree,Configurations Explored,Nondeterminism
+TM Name,Input String,Result,Depth of Tree,Configurations Explored,Nondeterminism
 a plus DTM,aaaaa,Accepted,5,6,1.0
 a plus DTM,a,Accepted,1,2,1.0
 a plus DTM,ab,Rejected,1,2,0.67
