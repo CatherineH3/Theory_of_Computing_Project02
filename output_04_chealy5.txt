@@ -1,0 +1,104 @@
+Machine Name: a*b*c* Deterministic
+Input String: 'bc'
+Depth of Configuration Tree: 2
+Total Transitions / Execution time: 2
+Total Configurations: 3
+Nondeterminism: 1.00
+
+String ACCEPTED in 2 transitions
+
+Acceptance Path (each line shows: tape state current_head remaining_tape):
+ q0 b c
+b q2 c _
+bc q3 _ _
+
+Machine Name: a*b*c* Deterministic
+Input String: 'a'
+Depth of Configuration Tree: 1
+Total Transitions / Execution time: 1
+Total Configurations: 2
+Nondeterminism: 1.00
+
+String ACCEPTED in 1 transitions
+
+Acceptance Path (each line shows: tape state current_head remaining_tape):
+ q0 a _
+a q1 _ _
+
+Machine Name: a*b*c* Deterministic
+Input String: 'abc'
+Depth of Configuration Tree: 3
+Total Transitions / Execution time: 3
+Total Configurations: 4
+Nondeterminism: 1.00
+
+String ACCEPTED in 3 transitions
+
+Acceptance Path (each line shows: tape state current_head remaining_tape):
+ q0 a bc
+a q1 b c
+ab q2 c _
+abc q3 _ _
+
+Machine Name: a*b*c* Deterministic
+Input String: 'aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc'
+Depth of Configuration Tree: 37
+Total Transitions / Execution time: 37
+Total Configurations: 38
+Nondeterminism: 1.00
+
+String ACCEPTED in 37 transitions
+
+Acceptance Path (each line shows: tape state current_head remaining_tape):
+ q0 a aaaaaaaaaaaaaaaaaaaaaaaccccccccccccc
+a q1 a aaaaaaaaaaaaaaaaaaaaaaccccccccccccc
+aa q1 a aaaaaaaaaaaaaaaaaaaaaccccccccccccc
+aaa q1 a aaaaaaaaaaaaaaaaaaaaccccccccccccc
+aaaa q1 a aaaaaaaaaaaaaaaaaaaccccccccccccc
+aaaaa q1 a aaaaaaaaaaaaaaaaaaccccccccccccc
+aaaaaa q1 a aaaaaaaaaaaaaaaaaccccccccccccc
+aaaaaaa q1 a aaaaaaaaaaaaaaaaccccccccccccc
+aaaaaaaa q1 a aaaaaaaaaaaaaaaccccccccccccc
+aaaaaaaaa q1 a aaaaaaaaaaaaaaccccccccccccc
+aaaaaaaaaa q1 a aaaaaaaaaaaaaccccccccccccc
+aaaaaaaaaaa q1 a aaaaaaaaaaaaccccccccccccc
+aaaaaaaaaaaa q1 a aaaaaaaaaaaccccccccccccc
+aaaaaaaaaaaaa q1 a aaaaaaaaaaccccccccccccc
+aaaaaaaaaaaaaa q1 a aaaaaaaaaccccccccccccc
+aaaaaaaaaaaaaaa q1 a aaaaaaaaccccccccccccc
+aaaaaaaaaaaaaaaa q1 a aaaaaaaccccccccccccc
+aaaaaaaaaaaaaaaaa q1 a aaaaaaccccccccccccc
+aaaaaaaaaaaaaaaaaa q1 a aaaaaccccccccccccc
+aaaaaaaaaaaaaaaaaaa q1 a aaaaccccccccccccc
+aaaaaaaaaaaaaaaaaaaa q1 a aaaccccccccccccc
+aaaaaaaaaaaaaaaaaaaaa q1 a aaccccccccccccc
+aaaaaaaaaaaaaaaaaaaaaa q1 a accccccccccccc
+aaaaaaaaaaaaaaaaaaaaaaa q1 a ccccccccccccc
+aaaaaaaaaaaaaaaaaaaaaaaa q1 c cccccccccccc
+aaaaaaaaaaaaaaaaaaaaaaaac q3 c ccccccccccc
+aaaaaaaaaaaaaaaaaaaaaaaacc q3 c cccccccccc
+aaaaaaaaaaaaaaaaaaaaaaaaccc q3 c ccccccccc
+aaaaaaaaaaaaaaaaaaaaaaaacccc q3 c cccccccc
+aaaaaaaaaaaaaaaaaaaaaaaaccccc q3 c ccccccc
+aaaaaaaaaaaaaaaaaaaaaaaacccccc q3 c cccccc
+aaaaaaaaaaaaaaaaaaaaaaaaccccccc q3 c ccccc
+aaaaaaaaaaaaaaaaaaaaaaaacccccccc q3 c cccc
+aaaaaaaaaaaaaaaaaaaaaaaaccccccccc q3 c ccc
+aaaaaaaaaaaaaaaaaaaaaaaacccccccccc q3 c cc
+aaaaaaaaaaaaaaaaaaaaaaaaccccccccccc q3 c c
+aaaaaaaaaaaaaaaaaaaaaaaacccccccccccc q3 c _
+aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc q3 _ _
+
+Machine Name: a*b*c* Deterministic
+Input String: 'ca'
+Depth of Configuration Tree: 1
+Total Transitions / Execution time: 1
+Total Configurations: 2
+Nondeterminism: 0.67
+
+String REJECTED in 1 transitions
+
+Longest Path (each line shows: tape state current_head remaining_tape):
+ q0 c a
+c q3 a _
+

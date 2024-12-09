@@ -1,0 +1,6 @@
+NTM Name,Input String,Result,Depth of Tree,Configurations Explored,Nondeterminism
+a*b*c* Deterministic,bc,Accepted,2,3,1.0
+a*b*c* Deterministic,a,Accepted,1,2,1.0
+a*b*c* Deterministic,abc,Accepted,3,4,1.0
+a*b*c* Deterministic,aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc,Accepted,37,38,1.0
+a*b*c* Deterministic,ca,Rejected,1,2,0.67
