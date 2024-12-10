@@ -14,6 +14,11 @@ Original file is located at
 # No other team members
 # Nondeterminisitic turing machine simulator
 
+from collections import deque
+import csv
+import dataclasses
+
+
 # Use dataclass to store the current configuraton
 @dataclasses.dataclass
 class Configuration:
