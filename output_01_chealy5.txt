@@ -14,6 +14,7 @@ aa q1 a aa
 aaa q1 a a
 aaaa q1 a _
 aaaaa q1 _ _
+aaaa_ q2 _ _
 Machine Name: a plus DTM
 Input String: 'a'
 Depth of Configuration Tree: 1
@@ -26,6 +27,7 @@ String ACCEPTED in 1 transitions
 Acceptance Path (each line shows: tape state current_head remaining_tape):
  q1 a _
 a q1 _ _
+a_ q2 _ _
 Machine Name: a plus DTM
 Input String: 'ab'
 Depth of Configuration Tree: 1
@@ -38,6 +40,7 @@ String REJECTED in 1 transitions
 Longest Path (each line shows: tape state current_head remaining_tape):
  q1 a b
 a q1 b _
+ab qreject _ _
 Machine Name: a plus DTM
 Input String: 'aaaaa'
 Depth of Configuration Tree: 5
@@ -54,6 +57,7 @@ aa q1 a aa
 aaa q1 a a
 aaaa q1 a _
 aaaaa q1 _ _
+aaaaa_ q2 _ _
 Machine Name: a plus DTM
 Input String: 'aaabb'
 Depth of Configuration Tree: 3
@@ -68,3 +72,4 @@ Longest Path (each line shows: tape state current_head remaining_tape):
 a q1 a abb
 aa q1 a bb
 aaa q1 b b
+aaab qreject b _
