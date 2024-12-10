@@ -10,7 +10,8 @@ String ACCEPTED in 2 transitions
 Acceptance Path (each line shows: tape state current_head remaining_tape):
  q0 b c
 b q2 c _
-bc q2 _ _
+bc q3 _ _
+bc_ qacc _ _
 
 Machine Name: a*b*c* Nondeterministic
 Input String: 'a'
@@ -23,14 +24,15 @@ String ACCEPTED in 1 transitions
 
 Acceptance Path (each line shows: tape state current_head remaining_tape):
  q0 a _
-a q0 _ _
+a q3 _ _
+a_ qacc _ _
 
 Machine Name: a*b*c* Nondeterministic
 Input String: 'abc'
 Depth of Configuration Tree: 3
 Total Transitions / Execution time: 3
 Total Configurations: 15
-Nondeterminism: 3.75
+Nondeterminism: 3.12
 
 String ACCEPTED in 3 transitions
 
@@ -38,14 +40,15 @@ Acceptance Path (each line shows: tape state current_head remaining_tape):
  q0 a bc
 a q0 b c
 ab q2 c _
-abc q2 _ _
+abc q3 _ _
+abc_ qacc _ _
 
 Machine Name: a*b*c* Nondeterministic
 Input String: 'aaaaabccccc'
 Depth of Configuration Tree: 11
 Total Transitions / Execution time: 11
 Total Configurations: 173
-Nondeterminism: 14.42
+Nondeterminism: 3.28
 
 String ACCEPTED in 11 transitions
 
@@ -61,14 +64,15 @@ aaaaabc q2 c ccc
 aaaaabcc q2 c cc
 aaaaabccc q2 c c
 aaaaabcccc q2 c _
-aaaaabccccc q2 _ _
+aaaaabccccc q3 _ _
+aaaaabccccc_ qacc _ _
 
 Machine Name: a*b*c* Nondeterministic
 Input String: 'aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc'
 Depth of Configuration Tree: 37
 Total Transitions / Execution time: 37
 Total Configurations: 1958
-Nondeterminism: 51.53
+Nondeterminism: 3.42
 
 String ACCEPTED in 37 transitions
 
@@ -110,7 +114,8 @@ aaaaaaaaaaaaaaaaaaaaaaaaccccccccc q2 c ccc
 aaaaaaaaaaaaaaaaaaaaaaaacccccccccc q2 c cc
 aaaaaaaaaaaaaaaaaaaaaaaaccccccccccc q2 c c
 aaaaaaaaaaaaaaaaaaaaaaaacccccccccccc q2 c _
-aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc q2 _ _
+aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc q3 _ _
+aaaaaaaaaaaaaaaaaaaaaaaaccccccccccccc_ qacc _ _
 
 Machine Name: a*b*c* Nondeterministic
 Input String: 'ca'
