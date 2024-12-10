@@ -1,4 +1,4 @@
-TM Name,Input String,Result,Depth of Tree,Configurations Explored,Nondeterminism
+Machine Name,Input String,Result,Depth of Tree,Configurations Explored,Nondeterminism
 a*b*c* Nondeterministic,bc,Accepted,2,6,2.0
 a*b*c* Nondeterministic,a,Accepted,1,2,1.0
 a*b*c* Nondeterministic,abc,Accepted,3,15,3.75
