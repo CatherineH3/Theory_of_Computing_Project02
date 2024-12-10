@@ -3,7 +3,7 @@ Input String: 'aaaaaaaa'
 Depth of Configuration Tree: 8
 Total Transitions / Execution time: 8
 Total Configurations: 37
-Nondeterminism: 4.11
+Nondeterminism: 1.44
 
 String ACCEPTED in 8 transitions
 
@@ -16,7 +16,8 @@ aaaa q1 a aaa
 aaaaa q1 a aa
 aaaaaa q1 a a
 aaaaaaa q1 a _
-aaaaaaaa q1 _ _
+aaaaaaaa q2 _ _
+aaaaaaaa_ q3 _
 
 Machine Name: a plus Nondeterministic
 Input String: 'a'
@@ -29,27 +30,29 @@ String ACCEPTED in 1 transitions
 
 Acceptance Path (each line shows: tape state current_head remaining_tape):
  q1 a _
-a q1 _ _
+a q2 _ _
+a_ q3 _ _
 
 Machine Name: a plus Nondeterministic
 Input String: 'ab'
 Depth of Configuration Tree: 1
 Total Transitions / Execution time: 1
 Total Configurations: 3
-Nondeterminism: 1.00
+Nondeterminism: 1.33
 
 String REJECTED in 1 transitions
 
 Longest Path (each line shows: tape state current_head remaining_tape):
  q1 a b
 a q1 b _
+ab qreject _
 
 Machine Name: a plus Nondeterministic
 Input String: 'aaa'
 Depth of Configuration Tree: 3
 Total Transitions / Execution time: 3
 Total Configurations: 7
-Nondeterminism: 1.75
+Nondeterminism: 1.42
 
 String ACCEPTED in 3 transitions
 
@@ -57,14 +60,15 @@ Acceptance Path (each line shows: tape state current_head remaining_tape):
  q1 a aa
 a q1 a a
 aa q1 a _
-aaa q1 _ _
+aaa q2 _ _
+aaa_ q3 _ _
 
 Machine Name: a plus Nondeterministic
 Input String: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 Depth of Configuration Tree: 19
 Total Transitions / Execution time: 19
 Total Configurations: 210
-Nondeterminism: 10.00
+Nondeterminism: 1.52
 
 RAN TOO LONG in 19 transitions
 
